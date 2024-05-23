@@ -1,0 +1,21 @@
+.mainHeadBackground {
+  background-image: url("https://res.cloudinary.com/dceanjhp6/image/upload/f_auto,q_auto/h0n9yf0nu6jayijer3qq");
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 0;
+}
+.superman{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.subMainHeadBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
