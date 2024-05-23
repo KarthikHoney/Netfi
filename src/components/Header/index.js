@@ -3,6 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import image from "../image/k.jpg"
 function Header() {
   return (
+   <>
     <div className='mainHeadBackground'>
         <div className='mainHead'>
         <div className='headerItems'>
@@ -16,6 +17,11 @@ function Header() {
         </div>
     </div>
     </div>
+    <div>
+        <h1 className='H1'>Welcome to Movie World</h1>
+    </div>
+   </>
+   
     
   )
 }
