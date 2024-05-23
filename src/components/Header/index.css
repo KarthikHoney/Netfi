@@ -30,3 +30,11 @@
     box-shadow: 0px 0px 10px #04040410;
     margin-bottom: 10px;
 }
+.mainHeadBackground{
+    background-image: url('https://res.cloudinary.com/dceanjhp6/image/upload/f_auto,q_auto/h0n9yf0nu6jayijer3qq');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}

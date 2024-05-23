@@ -3,7 +3,8 @@ import { IoIosSearch } from "react-icons/io";
 import image from "../image/k.jpg"
 function Header() {
   return (
-    <div className='mainHead'>
+    <div className='mainHeadBackground'>
+        <div className='mainHead'>
         <div className='headerItems'>
             <img src='https://res.cloudinary.com/dceanjhp6/image/upload/f_auto,q_auto/im7fouox4t2rpwopswma' alt='movie'/>
             <p className='HPara'>Home</p>
@@ -14,6 +15,8 @@ function Header() {
         <img src={image} alt='profile' className='profile'/>
         </div>
     </div>
+    </div>
+    
   )
 }
 
