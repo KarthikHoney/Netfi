@@ -1,7 +1,6 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import {Redirect} from 'react-router-dom'
-import Header from '../Header/index'
+import { Navigate } from 'react-router-dom';
 import './index.css'
 
 class Login extends Component {
@@ -93,12 +92,14 @@ class Login extends Component {
     const {showErrorMsg, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken !== undefined) {
-      return <Redirect to="/" />
+      return <Navigate to="/" />
     }
 
     return (
       <div className="MC">
-        <Header />
+        <div>
+            <img src='https://res.cloudinary.com/dceanjhp6/image/upload/f_auto,q_auto/im7fouox4t2rpwopswma' alt='movie' className='movieLogo'/>
+        </div>
         <div className="main">
           <form onSubmit={this.onSubmitForm}>
             <div className="sub">

@@ -79,3 +79,8 @@
     background-image: url('https://s3-alpha-sig.figma.com/img/8cca/f66f/19edc15e3aa6b6a1301fd6667bf2509e?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=htti~-B2JbHMyXlEiKODJ8dPLJccHnH5R-bOhxcHDKWOkccXwCy9AaRpK4SJkuBtUG5bTutGR9TYpwIkypmG9fsrQfA9ESUmJt39gJcY-~k3X1AP8Mwy0LgmSj-mjL1IxF8WD6622nkJxlwVwUffCT~Xs-7z~TOCyUIlaVW6pvVJWCle7B7xHNtVj-bzJy6S7TZU4V1yGqmoboJWS3FpbCfO-4n~-uzKePIGKoRSOsMTF~ZN9KAc8XBtkhFod053P7mlfzsFUJFSi0XJSGDiBCPjsdxbf88ahUXCxLDDodKHNQIA5xh-bf4jdmID1AL2qVVakR7WmoVh-Lp8j3nqfw__');
     background-size: cover;
   }
+  .movieLogo{
+    margin-top:20px ;
+    margin-left: 20px;
+    float: left;
+  }
